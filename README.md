@@ -1,8 +1,8 @@
-\# AI Customer Support Agent — AmazonHelp
+**AI Customer Support Agent — AmazonHelp**
 
 
 
-\## 1. Problem Framing
+**1. Problem Framing**
 
 
 
@@ -21,9 +21,7 @@ The agent performs three tasks:
 3\. Decides whether the case can be auto-handled or should be escalated to a human.
 
 
-
-\### What Good Means
-
+ **What Good Means**
 
 
 For this project, a good support agent should:
@@ -41,10 +39,7 @@ For this project, a good support agent should:
 \- escalate cases that are risky, urgent, unresolved, or explicitly require human help.
 
 
-
-\### What I Chose Not to Build
-
-
+ What I Chose Not to Build
 
 I intentionally did not build:
 
@@ -66,11 +61,9 @@ The goal was to build and evaluate a reproducible support-agent pipeline rather 
 
 
 
-\---
 
 
-
-\## 2. Dataset and Brand Selection
+ **2. Dataset and Brand Selection**
 
 
 
@@ -104,12 +97,11 @@ The raw Twitter dataset is intentionally excluded from Git because of its size.
 
 
 
-\---
 
 
 
-\## 3. Intent Taxonomy
 
+**3. Intent Taxonomy**
 
 
 I defined nine intents from the observed AmazonHelp conversations:
@@ -144,11 +136,11 @@ A key annotation rule is that the customer's main requested action determines th
 
 
 
-\---
 
 
 
-\## 4. System Architecture
+
+ **4. System Architecture**
 
 
 
@@ -168,7 +160,7 @@ Customer message
 
 
 
-\### Intent Classification
+**Intent Classification**
 
 
 
@@ -197,12 +189,10 @@ Model:
 Classifier:
 
 
-
 `LogisticRegression(class\_weight="balanced")`
 
 
-
-\### Historical Retrieval
+ **Historical Retrieval**
 
 
 
@@ -218,16 +208,13 @@ The top three cases are provided as evidence to the response generator.
 
 
 
-\### Response Generation
-
+ **Response Generation**
 
 
 The response generator uses an LLM and the retrieved historical cases.
 
 
-
 The prompt instructs the model to:
-
 
 
 \- answer the customer's actual issue;
@@ -242,13 +229,9 @@ The prompt instructs the model to:
 
 
 
-\### Escalation
-
-
+**Escalation**
 
 The escalation layer uses conservative rules.
-
-
 
 Cases can be escalated when they contain:
 
@@ -272,40 +255,27 @@ Cases can be escalated when they contain:
 
 
 
-\---
+
+**5. Evaluation**
 
 
 
-\## 5. Evaluation
-
-
-
-\### Intent Baselines
-
-
+**Intent Baselines**
 
 I compared three approaches.
 
+Method	Accuracy	Macro F1	Macro F1
+Majority baseline	0.35 	0.06	0.18
+TF-IDF + Logistic Regression	0.37	0.23	0.38
+Semantic + Logistic Regression	0.40	0.29	0.42
 
 
-| Method | Accuracy | Macro F1 | Weighted F1 |
-
-|---|---:|---:|---:|
-
-| Majority baseline | 0.35 | 0.06 | 0.18 |
-
-| TF-IDF + Logistic Regression | 0.37 | 0.23 | 0.38 |
-
-| Semantic + Logistic Regression | 0.40 | 0.29 | 0.42 |
 
 
 
 The semantic classifier was therefore used in the final pipeline.
 
-
-
-\### Golden Evaluation
-
+**Golden Evaluation**
 
 
 On the 200-example golden set:
@@ -324,12 +294,10 @@ The higher golden-set result compared with the held-out test result suggests tha
 
 
 
-\---
 
 
 
-\## 6. Reply Quality Evaluation
-
+**6. Reply Quality Evaluation**
 
 
 I evaluated 30 generated replies using an LLM judge.
@@ -352,46 +320,30 @@ The judge scored five criteria from 1–5:
 
 
 
-Results:
+**Results:**
 
-
-
-| Criterion | Mean Score |
-
-|---|---:|
-
-| Correctness | 4.27 / 5 |
-
-| Relevance | 4.83 / 5 |
-
-| Grounding | 4.10 / 5 |
-
-| Helpfulness | 4.33 / 5 |
-
-| No Hallucination | 4.87 / 5 |
-
-| Overall | 4.48 / 5 |
-
-
+Criterion	Mean Score
+Correctness	4.27 / 5
+Relevance	4.83 / 5
+Grounding	4.10 / 5
+Helpfulness	4.33 / 5
+No Hallucination	4.87 / 5
+Overall	4.48 / 5
 
 These results are encouraging but should not be interpreted as proof that every generated response is safe or correct.
 
 
 
-\---
 
 
 
-\## 7. Human Validation of the LLM Judge
+**7. Human Validation of the LLM Judge**
 
 
 
 I independently blind-rated six previously unseen generated replies using the same five criteria.
 
-
-
 Human mean scores were:
-
 
 
 \- Correctness: 4.50
@@ -426,24 +378,17 @@ This is a small sample, so the agreement statistics are unstable. More important
 
 
 
-\---
 
 
-
-\## 8. Escalation Strategy
+ **8. Escalation Strategy**
 
 
 
 The escalation system is deliberately conservative.
 
-
-
 AUTO-HANDLE is used only when the case does not trigger a high-risk or low-confidence rule.
 
-
-
 ESCALATE is preferred for:
-
 
 
 \- security/payment risks;
@@ -462,50 +407,34 @@ ESCALATE is preferred for:
 
 \- low-confidence predictions.
 
-
-
 This reduces the risk of confidently producing an inappropriate automated response.
 
 
 
-\---
 
 
 
-\## 9. Top Failure Modes
+
+**9. Top Failure Modes**
 
 
-
-\### 1. Other vs Delivery Confusion
-
-
+**1. Other vs Delivery Confusion**
 
 Generic support messages can resemble delivery complaints.
 
-
-
 Example pattern:
-
-
 
 "I have been waiting for help with my order."
 
-
-
 The message may contain order/delivery language without clearly describing a delivery problem.
 
-
-
-\### 2. Sparse Minority Intents
-
-
+**2. Sparse Minority Intents**
 
 Some intents such as account and cancellation have relatively few examples. Their classifier performance is therefore less reliable.
 
 
 
-\### 3. Historical Retrieval Can Be Too Similar
-
+**3. Historical Retrieval Can Be Too Similar**
 
 
 If the exact customer message exists in the historical dataset, retrieval can return itself with similarity close to 1.0.
@@ -516,7 +445,7 @@ This can make grounding appear stronger than it would be on a genuinely unseen c
 
 
 
-\### 4. Historical Responses Are Not Guaranteed Policies
+**4. Historical Responses Are Not Guaranteed Policies**
 
 
 
@@ -524,20 +453,18 @@ A historical AmazonHelp response shows what happened in a past conversation. It 
 
 
 
-\### 5. LLM Response Can Overgeneralize
-
+**5. LLM Response Can Overgeneralize**
 
 
 A generated response may infer that a particular resolution is available even when the retrieved historical examples do not provide enough evidence.
 
 
 
-\---
 
 
 
-\## 10. What Is Misleading About My Headline Number?
 
+**10. What Is Misleading About My Headline Number?**
 
 
 The strongest headline result is the 60% accuracy on the 200-example golden set.
@@ -548,9 +475,7 @@ This number is useful, but it is misleading if interpreted as production accurac
 
 
 
-Reasons:
-
-
+**Reasons:**
 
 1\. The golden set is small.
 
@@ -572,16 +497,13 @@ Therefore, the 60% golden accuracy should be viewed as an evaluation result on t
 
 
 
-\---
 
 
 
-\## 11. Limitations
-
+**11. Limitations**
 
 
 The current system has several limitations:
-
 
 
 \- limited labelled training data;
@@ -602,13 +524,9 @@ The current system has several limitations:
 
 
 
-\---
 
 
-
-\## 12. What I Would Do With One More Week
-
-
+**12. What I Would Do With One More Week**
 
 With one additional week, I would prioritize:
 
@@ -634,12 +552,9 @@ With one additional week, I would prioritize:
 
 
 
-\---
 
 
-
-\## 13. Repository Structure
-
+**13. Repository Structure**
 
 
 ```text
