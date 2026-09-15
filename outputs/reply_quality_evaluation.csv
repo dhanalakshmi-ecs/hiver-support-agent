@@ -1,0 +1,185 @@
+customer_tweet_id,customer_message,intent,generated_reply,judge_result
+59540,@AmazonHelp @AmazonHelp no it just says it will be delivered today,delivery_issue,"If your tracking says it will be delivered today, please allow until the end of the day for the delivery window to pass, as tracking updates can change throughout the day. If it still hasn’t arrived afterward, please contact us through Amazon Customer Service so we can look into it.","Correctness: 4
+Relevance: 5
+Grounding: 3
+Helpfulness: 4
+No_Hallucination: 5
+Reason: It appropriately explains that “delivered today” is still within the delivery window and gives a reasonable next step if the package does not arrive, though no historical examples were provided for comparison."
+36497,@117634 Kindle Unlimited website and android app down?? Any ETA on fix?,product_device_issue,"Sorry you’re having trouble accessing Kindle Unlimited on both the website and Android app. This may be a temporary service issue, but we don’t have a confirmed ETA for a fix. Please try again shortly, and ensure the app is updated and your connection is stable. If the issue continues, contact Amazon Customer Service for account-specific troubleshooting: https://www.amazon.com/gp/help/customer/service/","Correctness: 4
+Relevance: 5
+Grounding: 4
+Helpfulness: 4
+No_Hallucination: 5
+Reason: It directly addresses the Kindle Unlimited outage, avoids promising an ETA, and offers reasonable troubleshooting and escalation steps, though it does not first request the specific errors or device details emphasized in the historical replies."
+99806,@AmazonHelp Still awaiting for a resolution..,other,We’re sorry you’re still waiting for a resolution. Please send us a private message with your order details or case reference so we can review the status and assist you further.,"Correctness: 4
+Relevance: 4
+Grounding: 3
+Helpfulness: 4
+No_Hallucination: 5
+Reason: Requesting a private message with case or order information is a realistic way to investigate, but it is less closely grounded than the historical guidance to resubmit the requested details through the previously provided link."
+122002,@AmazonHelp Don’t think your customer service is capable to be honest.,other,We’re sorry you feel that way. We want to understand what happened and help make it right. Please send us a DM with more details about your experience—without sharing sensitive information—and we’ll look into it.,"Correctness: 5
+Relevance: 5
+Grounding: 5
+Helpfulness: 5
+No_Hallucination: 5
+Reason: It appropriately acknowledges the frustration, asks for more information privately, warns against sharing sensitive information, and does not claim that any investigation has already occurred."
+27846,@AmazonHelp Ok..Fine but you should have to solve my problem,other,"We’re sorry this hasn’t been resolved yet. Please send us a brief description of the issue, along with any relevant order details (without sharing sensitive information), so we can investigate and help. You can also contact Amazon Customer Service through the app or website for account-specific support.","Correctness: 4
+Relevance: 5
+Grounding: 4
+Helpfulness: 4
+No_Hallucination: 5
+Reason: It asks for the issue and relevant details and provides an escalation route, but it does not specifically confirm whether the customer submitted the details through the previously provided link as the closest historical response does."
+24947,"@AmazonHelp Still waiting for your response, let me know how gonna help me in this issue?",other,Sorry for the delay. Please send us a private message with your order details and a brief description of the issue so we can look into it and assist you further. You can also contact Amazon Customer Service through the app or Help page for account-specific support.,"Correctness: 4
+Relevance: 5
+Grounding: 4
+Helpfulness: 4
+No_Hallucination: 5
+Reason: It responds to the delayed reply with a practical request for private details and support channels, though it does not explicitly say that the existing issue is being worked on or provide the update expectation reflected in the historical example."
+91339,@AmazonHelp Et comment je fait.....? https://t.co/UYtFSPehyz,other,"Bonjour, pouvez-vous nous préciser ce que vous souhaitez faire ? Nous ne pouvons pas consulter le contenu du lien ici. Décrivez-nous le problème rencontré, ou contactez-nous via **Aide et service client** pour une assistance personnalisée.","Correctness: 2
+Relevance: 4
+Grounding: 2
+Helpfulness: 2
+No_Hallucination: 5
+Reason: The response appropriately asks for clarification, but it misses the historically supported guidance to use the provided link without authentication."
+96786,@AmazonHelp Yes I have tried calling to them on 180030009009 number and application. Both ways but not able to talk as they cut my phone before connecting,other,"We’re sorry you’ve been unable to reach us by phone or through the app. Please try contacting Customer Service via **Amazon app/website → Customer Service → Contact Us → Chat**, or request a callback when available. If the call disconnects again, try a different network or time. We’ll be happy to help once you’re connected.","Correctness: 4
+Relevance: 5
+Grounding: 4
+Helpfulness: 4
+No_Hallucination: 5
+Reason: It gives a realistic Customer Service path and callback option consistent with the historical guidance, though it omits the specific support link and adds generic troubleshooting suggestions."
+22472,"@AmazonHelp Bonjour, mon problème n'a toujours pas été réglé après remplissage du formulaire",other,"Bonjour, nous sommes désolés que votre problème ne soit toujours pas résolu malgré le formulaire rempli. Pour que nous puissions vérifier votre dossier, contactez-nous en message privé avec l’adresse e-mail associée à votre compte et, si possible, le numéro de dossier. Nous vous aiderons au plus vite.","Correctness: 3
+Relevance: 4
+Grounding: 3
+Helpfulness: 4
+No_Hallucination: 5
+Reason: Requesting the case number and account details is a useful escalation step, but the historically aligned response would first ask what answer the support team gave regarding the form."
+3751,@AmazonHelp Sadly yes,other,"We’re sorry to hear that. Please send us a few more details about the issue, or contact us via Amazon Customer Service so we can look into it for you.","Correctness: 3
+Relevance: 4
+Grounding: 3
+Helpfulness: 3
+No_Hallucination: 5
+Reason: Because the customer's message lacks context, asking for more details is reasonable, but it does not pursue the specific device information suggested by the historical response."
+36527,@AmazonHelp Keep apologies with u.what is the update on my geyser change? Will you give same in summers??,order_issue,"We understand your frustration regarding the geyser replacement. The status and replacement eligibility can only be confirmed after checking your order and warranty details. Please contact Amazon Customer Service through the app or website with your order information for an update. Replacement terms remain subject to the applicable policy, regardless of the season.","Correctness: 4
+Relevance: 5
+Grounding: 4
+Helpfulness: 4
+No_Hallucination: 5
+Reason: It correctly directs the customer to support with order information and appropriately notes that replacement eligibility depends on applicable terms, without claiming access or promising a specific outcome."
+113798,"Apparently @116316 knows more about I want than myself. After cancelling my Prime membership some time ago, they just decided to renew it and charge me for it. Great job! (Not!)",prime_issue,"I’m sorry for the unexpected Prime renewal and charge. Please check **Your Prime Membership** to confirm the current status and cancellation date. If you canceled before the renewal date or didn’t authorize the charge, contact Amazon Customer Service so they can review your account and determine whether a refund is eligible. You can reach them through **Help → Contact Us** in the Amazon app or website.","Correctness: 5
+Relevance: 5
+Grounding: 5
+Helpfulness: 5
+No_Hallucination: 5
+Reason: Directly addresses the unexpected Prime renewal, recommends checking membership status, and directs the customer to support for account review and possible refund consideration without promising an outcome."
+75916,@AmazonHelp I've had two emails to say ita out for delivery (one today one yesterday) and when I click on track parcel it says it was handed to the customer.I have no idea who the courier is to sort this out,delivery_issue,"Sorry for the confusion. Please check around your delivery address, safe places, with neighbours, and anyone in your household who may have accepted it. If it’s still missing, go to **Your Orders → Track package → Problem with delivery** to contact Amazon Support for an account-specific investigation. They can identify the courier and look into the incorrect “handed to customer” scan.","Correctness: 5
+Relevance: 5
+Grounding: 5
+Helpfulness: 5
+No_Hallucination: 5
+Reason: Appropriately suggests checking safe places, neighbours, and household members before escalating through order support for investigation of the incorrect delivery scan."
+21880,@115850 Customer care is not capable of solving issues regarding refund and return. Need to speak to senior manager who can solve the prob,refund_return,I’m sorry your refund and return issue hasn’t been resolved. A senior associate or supervisor can review the case and advise on the next steps. Please contact Amazon Customer Service through the app or website and request an escalation to a supervisor. Keep your order details and any return or refund information available so they can investigate promptly.,"Correctness: 4
+Relevance: 5
+Grounding: 4
+Helpfulness: 5
+No_Hallucination: 5
+Reason: Acknowledges the unresolved refund and return issue and provides a realistic escalation path, though the historical replies more specifically request customer details through a support link."
+52232,Is @115828 not carrying the PS4 version of LA Noire? I can't find it.,order_issue,"It appears that listing **@115828** may not currently offer the PS4 version of *L.A. Noire*. Please search for **“L.A. Noire PS4”** and check the platform details on each listing, since versions may be listed separately. If you still can’t find it, please contact Amazon Customer Service so they can verify the listing and availability.","Correctness: 3
+Relevance: 4
+Grounding: 3
+Helpfulness: 4
+No_Hallucination: 4
+Reason: Searching by platform and contacting support are reasonable, but the response does not address the key historical guidance to clarify the Amazon website region and ambiguously treats the user handle as a listing."
+109868,@AmazonHelp 30 days since i raised an issue but no one contacted yet from amazon. @115851 @amazonhelp #unhappy #poorservice #amazon #retail,other,We’re sorry you haven’t received an update after 30 days. Please send us a direct message with your order number or case ID and the email address or phone number linked to your Amazon account so we can look into this. You can also contact us through the Amazon app or Help page for account-specific assistance.,"Correctness: 4
+Relevance: 5
+Grounding: 4
+Helpfulness: 4
+No_Hallucination: 5
+Reason: It correctly requests account or case details and directs the customer to account-specific support, although it lacks the specific details-sharing link emphasized in the historical examples."
+93505,"@116316 toll, dass ihr EveningExpress anbietet! 😁 Ihr habt stark nachgelassen. 😞 https://t.co/15PTSRgGFP",delivery_issue,"Das klingt ärgerlich – so sollte eine Lieferung natürlich nicht laufen. Bitte sende uns deine Bestellnummer per Direktnachricht oder kontaktiere den Amazon-Kundenservice, damit wir den Lieferstatus prüfen können: amazon.de/hz/contact-us.","Correctness: 5
+Relevance: 5
+Grounding: 4
+Helpfulness: 5
+No_Hallucination: 5
+Reason: Addresses the apparent delivery delay and provides a realistic way to check the order without claiming any action was taken."
+69657,@AmazonHelp Thanks for the quick response!,other,"You're welcome! If you need any further assistance, please feel free to reach out—we're happy to help.","Correctness: 5
+Relevance: 5
+Grounding: 5
+Helpfulness: 5
+No_Hallucination: 5
+Reason: A concise and appropriate acknowledgment that closely matches the historical responses."
+47889,order id #403-5637109-7077146 has been cancelled or is on time pls help. @AmazonHelp @115850,cancellation_issue,"Sorry for the confusion. I can’t verify the status of order **#403-5637109-7077146** here. Please check **Your Orders** in the Amazon app or website for the latest cancellation or delivery update. If the status is unclear, contact Amazon Customer Service through **Help → Contact Us** so an associate can review the order and assist you.","Correctness: 5
+Relevance: 5
+Grounding: 5
+Helpfulness: 5
+No_Hallucination: 5
+Reason: Protects the customer's publicly exposed order information and directs them to private order-status support."
+664,"@AmazonHelp delivery I paid for today,didn’t arrive.why not?i paid enough for it.where is it??I’m unhappy.refund the delivery charge",delivery_issue,"I’m sorry your order didn’t arrive when expected. Please check **Your Orders** for the latest tracking update and delivery estimate. If it’s delayed or the tracking hasn’t updated, contact Amazon Customer Service through the app or website so we can investigate the shipment and review whether the delivery charge is eligible for a refund.","Correctness: 5
+Relevance: 5
+Grounding: 5
+Helpfulness: 5
+No_Hallucination: 5
+Reason: Suggests checking tracking and contacting customer service, while appropriately saying the delivery-charge refund must be reviewed rather than promising it."
+43673,@AmazonHelp It says Nov 28 but now they’re estimating to be by Dec 15,delivery_issue,"We’re sorry for the delay and understand the frustration. Delivery estimates can change due to carrier or shipping issues. Please check your order’s latest tracking details in Your Orders, and contact Amazon Customer Service so they can review the shipment and available options.","Correctness: 5
+Relevance: 5
+Grounding: 4
+Helpfulness: 5
+No_Hallucination: 5
+Reason: Correctly addresses the changed delivery estimate and recommends checking tracking and contacting support, though it is less specific than the historical guidance."
+91238,@AmazonHelp Okey gracias!,other,¡De nada! Estamos aquí para ayudarte si necesitas algo más.,"Correctness: 5
+Relevance: 5
+Grounding: 5
+Helpfulness: 4
+No_Hallucination: 5
+Reason: Appropriately responds to a simple thank-you in Spanish with a polite offer of further help."
+77533,@AmazonHelp https://t.co/u2pSfScoie,other,"Hi! We’d be happy to help. We can’t view the content of that link here—please tell us what issue you’re experiencing, without sharing sensitive information. For account-specific assistance, contact us at https://www.amazon.com/gp/help/customer/contact-us.","Correctness: 4
+Relevance: 5
+Grounding: 4
+Helpfulness: 4
+No_Hallucination: 5
+Reason: Since the message contains only a link, asking the customer to explain the issue is appropriate and provides a legitimate support path without inventing what the link contains."
+21551,@AmazonHelp Really AB? Why don't you shove it up somewhere appropriately and get your smartest ass people to resolve the query instead of appreciating my vocab...I would love to meet u in person and would like to thank u..let me know when u r interested,other,We’re sorry you’re frustrated. We’d like to help resolve the issue—please send us a DM with the details of your concern and avoid sharing personal or order information publicly. We’re here to assist respectfully.,"Correctness: 5
+Relevance: 5
+Grounding: 5
+Helpfulness: 5
+No_Hallucination: 5
+Reason: Acknowledges the customer's frustration, requests private details for resolution, and appropriately discourages sharing sensitive information publicly."
+91722,@115821 I have a gift card but that is not useful for me as I am outside us and your import charge is too high and @115850 have similar kind of thing in very lower amount help me with this. Can you transfer it to @115850,payment_issue,"Amazon gift card balances generally cannot be transferred to another gift card, account, or marketplace. Amazon.com gift cards can only be used on Amazon.com and may not be usable outside the U.S.
+
+Please don’t share the gift card code publicly. Contact Amazon Customer Service with proof of purchase so they can check whether any options are available for your specific card.","Correctness: 5
+Relevance: 5
+Grounding: 5
+Helpfulness: 4
+No_Hallucination: 5
+Reason: Correctly explains that gift cards are tied to their issuing marketplace and cannot ordinarily be transferred, while directing the customer to support for card-specific review."
+9810,@AmazonHelp Was sent this item in 6x9 size. Trying to return &amp; UPS did not show up today. I'd keep item if I could get refund for price difference. https://t.co/G1a6por32Z,refund_return,"Sorry the UPS pickup didn’t happen today. If you’d like to keep the 6x9 item and request a refund for the price difference, please contact Amazon Customer Service so we can review the order and available options. You can also reschedule the return pickup through **Your Orders** if you still prefer to return it.","Correctness: 4
+Relevance: 5
+Grounding: 5
+Helpfulness: 5
+No_Hallucination: 4
+Reason: Directs the customer to support for review of the return and price-difference request, consistent with the historical response; the stated availability of pickup rescheduling is somewhat unsupported."
+86208,"Today is the twins’ 4th Birthday. This is their gift from us - ordered on Sunday with Amazon Prime. We were assured yesterday that it would arrive today but I have just received this message. I understand that these things happen, but I’m hoping you can work some magic @115830 https://t.co/IrX4jcLN6Z",delivery_issue,"I’m sorry this has happened, especially on the twins’ birthday. I can’t access the order from here, but Amazon Customer Service can check the latest tracking information and available options, such as an expedited replacement or refund if the package is delayed. Please contact us via the Amazon app or website under **Customer Service → Your Orders**, and have the order details ready.","Correctness: 4
+Relevance: 5
+Grounding: 4
+Helpfulness: 4
+No_Hallucination: 4
+Reason: It appropriately acknowledges the delayed birthday delivery and directs the customer to check tracking and contact support, though expedited replacement or refund options are not established by the message or historical example."
+76101,"@115850 this is what I received in box, an offer,  for giving good review to product purchased. Good way to fool customers who trust reviews on your site. @115851 @115821 https://t.co/R8HeKGeMWV",other,"Thank you for bringing this to our attention. Offering compensation or incentives in exchange for a positive review violates Amazon’s Customer Review policies and undermines review integrity.
+
+Please report the insert through **Report abuse** on the product page or contact Amazon Customer Service with the order and product details. You can also provide the photo through a secure support channel rather than posting personal information publicly. We’ll review the matter and take appropriate action.","Correctness: 5
+Relevance: 5
+Grounding: 4
+Helpfulness: 5
+No_Hallucination: 4
+Reason: It correctly identifies incentivized positive reviews as a policy issue and gives realistic reporting options, though the promise to review and take action is somewhat unsupported."
+71996,@AmazonHelp I still await a call from your end.,other,We’re sorry for the delay. Please contact us through the Amazon app or Help page so an agent can review your request and arrange a call: https://www.amazon.com/gp/help/customer/contact-us.,"Correctness: 4
+Relevance: 5
+Grounding: 3
+Helpfulness: 4
+No_Hallucination: 5
+Reason: It addresses the missing callback and provides a way to reconnect with support, but it does not align as closely with the historical guidance about waiting for outreach or using email or chat."
+108153,"@AmazonHelp Ah, acho que o ""O Mínimo..."", pois gosto de ensaios. Mas o outro vem em seguida.",other,"Entendi! Você prefere **“O Mínimo...”** por gostar de ensaios, e pretende ler o outro livro em seguida. Boa escolha!","Correctness: 5
+Relevance: 5
+Grounding: 5
+Helpfulness: 5
+No_Hallucination: 5
+Reason: It accurately understands the Portuguese message and responds naturally and appropriately to the customer's comment about the books."

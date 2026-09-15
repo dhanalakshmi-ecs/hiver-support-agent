@@ -1,0 +1,6 @@
+dimension,samples,exact_agreement,cohen_kappa
+Correctness,6,0.5,0.182
+Relevance,6,0.5,0.0
+Grounding,6,0.167,0.0
+Helpfulness,6,0.5,0.25
+No_Hallucination,6,0.667,0.25

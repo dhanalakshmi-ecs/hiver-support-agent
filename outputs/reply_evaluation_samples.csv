@@ -1,0 +1,15 @@
+customer_tweet_id,customer_message,intent,historical_examples,generated_reply
+59540,@AmazonHelp @AmazonHelp no it just says it will be delivered today,delivery_issue,"Historical Case 1
+Customer: @AmazonHelp @AmazonHelp no it just says it will be delivered today
+Amazon Reply: @129582 If your order hasn't arrived by tomorrow at 21:00, please contact us here for available options: https://t.co/JzP7hlA23B ^LR
+Similarity: 1.000
+
+Historical Case 2
+Customer: @AmazonHelp It says it was delivered yesterday
+Amazon Reply: @129372 Thanks for confirming, Aaliyah! Let's try locating your package using the steps found here: https://t.co/Q8gjPhXRq5 ^FD
+Similarity: 0.873
+
+Historical Case 3
+Customer: @AmazonHelp @115766 Can I get a confirmation that it will ship tomorrow?
+Amazon Reply: @117957 We always strive to get your order to you at the stated expected delivery time that is stated at the time of checkout ^CH
+Similarity: 0.830","If your tracking still says it will be delivered today, please allow the full day for delivery, as the carrier may arrive later than usual. If it isn’t delivered by the end of the day, please contact Amazon Customer Service so we can review the shipment details."

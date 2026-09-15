@@ -1,0 +1,87 @@
+customer_tweet_id,customer_message,intent,historical_examples,generated_reply
+69715,"@AmazonHelp Its out for delivery but not yet done, but by 5 your delivery services will be closed. No intimation yet. Plz prioritise and inform the field executive",delivery_issue,"Historical Case 1
+Customer: @AmazonHelp Its out for delivery but not yet done, but by 5 your delivery services will be closed. No intimation yet. Plz prioritise and inform the field executive
+Amazon Reply: @131794 Please call us here: https://t.co/vlvfJr4nN9 and we'll assist you regarding the order delivery. ^SF
+Similarity: 1.000
+
+Historical Case 2
+Customer: @AmazonHelp Already did... I hope u guys take care of it properly, coz delivery agency is neither professional nor their the staff. Spoiling your name.
+Amazon Reply: @132985 I get your concern regarding the delivery of your order. Please don't worry as you've reported it to our support team your concern will be taken care of. Also, as informed we'll have your package delivered to you by 7:00PM. Appreciate your understanding. ^KH
+Similarity: 0.808
+
+Historical Case 3
+Customer: @AmazonHelp Done. I hope this will finally be corrected. We've been complaining about this for months &amp; have been ignored. This delivery method is HORRIBLE. You are putting your business in the hands of people who are ruining your reputation with their awful service. #amazonlogistics
+Amazon Reply: @137588 We don't like letting you down, and hope that you give us another chance to make it up to you in the future! Please keep us posted once we've responded! ^FR
+Similarity: 0.798","Sorry your delivery hasn’t arrived yet. Delivery times can vary, even when an order is marked “out for delivery.” Please check the latest tracking updates in the Amazon app or at **Your Orders**. For real-time assistance and to contact the delivery team, please reach out to Amazon Customer Service through **Help → Contact Us**."
+86233,Entrega extremamente rápida da @117086 Parabéns! Já tô atacando os livros https://t.co/VxvvqWbA2y,other,"Historical Case 1
+Customer: Entrega extremamente rápida da @117086 Parabéns! Já tô atacando os livros https://t.co/VxvvqWbA2y
+Amazon Reply: @134822 Que maravilha Ney! Eu estaria fazendo o mesmo! Espero que aproveite bastante! 😃 Um grande abraço! ^NP
+Similarity: 1.000
+
+Historical Case 2
+Customer: O verdadeiro significado da expressão ENTREGA RÁPIDA @117086 @6926 🤓 https://t.co/Y56yLOULEv
+Amazon Reply: @143194 Olá Sergio! Um primo me recomendou esse mesmo livro! Me falou que é interessante demais! Ficamos felizes que o seu pedido chegou! ^JJ
+Similarity: 0.627
+
+Historical Case 3
+Customer: Geralmente minhas entregas chegam super rápido da @117086 mas dessa vez tá demorando e eu preciso para segunda, estou nervosa 😭
+Amazon Reply: @138676 Oi Michele! Você poderia nos informar a data estimada de entrega do seu pedido? ^NP
+Similarity: 0.617",Que ótimo saber que sua entrega chegou tão rápido! 😊 Aproveite bastante a leitura dos livros. Estamos sempre à disposição!
+26906,@AmazonHelp It’s not letting me copy the link,other,"Historical Case 1
+Customer: @AmazonHelp It’s not letting me copy the link
+Amazon Reply: @121892 You should be able to tap/click on that link. If not, can you please use another device to see if it works? ^RL
+Similarity: 1.000
+
+Historical Case 2
+Customer: @AmazonHelp Tried sending an email via that link , it doesn't seem to send
+Amazon Reply: @123165 Are you receiving an error message when attempting to send the e-mail? E-mails are usually answered within 12 hours. ^TH
+Similarity: 0.814
+
+Historical Case 3
+Customer: @AmazonHelp When I click this link it doesn't bring me anywhere,remains on this page
+Amazon Reply: @137590 Please use SM's link, sign into your account and copy/paste the link SK provided. Please let us know in detail what happened, so we can have a look into the matter. ^LN
+Similarity: 0.804","Sorry you’re having trouble copying the link. Please try tapping and holding the link, then select **Copy Link**. If that doesn’t work, try opening Amazon in another browser or the Amazon app. You can also contact us here for further help: https://www.amazon.com/gp/help/customer-service."
+21393,"@AmazonHelp Würde das funktionieren, wenn ich mein Konto auflade? Da gibts ja diese Funktion in der App. Dann müsste ich nicht los und einen holen. 😅",payment_issue,"Historical Case 1
+Customer: @AmazonHelp Würde das funktionieren, wenn ich mein Konto auflade? Da gibts ja diese Funktion in der App. Dann müsste ich nicht los und einen holen. 😅
+Amazon Reply: @120682 Dann wird die Zahlungsart nochmal geprüft. Du kannst es gerne versuchen, aber ob es klappt kann ich dir nicht versprechen. ^AN
+Similarity: 1.000
+
+Historical Case 2
+Customer: @AmazonHelp App neu installieren und neu anmelden hat funktioniert. Das ich da nicht selber drauf gekommen bin 😂
+Amazon Reply: @144098 Super, dass es geklappt hat :) Dann viel Spaß beim Streamen!  ^AW
+Similarity: 0.631
+
+Historical Case 3
+Customer: @AmazonHelp P.s hat funktioniert mit dem Konto aufladen!
+Amazon Reply: @120682 Super, das freut mich! Gib aber nicht gleich alles auf einmal aus 😉 ^DW
+Similarity: 0.604","Ja, du kannst dein Amazon-Konto über die Aufladefunktion in der App mit Guthaben versehen und dieses anschließend für viele Bestellungen nutzen. Bitte beachte, dass das Guthaben nicht ausgezahlt werden kann und eine fehlgeschlagene Zahlung nicht automatisch ersetzt – wähle es bei der Bestellung als Zahlungsart aus.
+
+Falls dich jemand aufgefordert hat, einen Gutschein zu kaufen oder den Gutscheincode weiterzugeben: Bitte nicht tun. Amazon fordert niemals Gutscheincodes zur Klärung eines Zahlungs- oder Kontoproblems an. Wende dich in diesem Fall direkt an den Amazon-Kundenservice."
+74845,@AmazonHelp Already reported. Please re-ship my order. I'll not place a fresh order.,delivery_issue,"Historical Case 1
+Customer: @AmazonHelp Already reported. Please re-ship my order. I'll not place a fresh order.
+Amazon Reply: @132746 I'm afraid we'll not be able to reinstate canceled orders for a delivery attempt. However, we'll be sure to review your experience internally as a feedback. We request you to place a fresh order. ^YP
+Similarity: 1.000
+
+Historical Case 2
+Customer: @AmazonHelp To order again!
+Amazon Reply: @143957 Were you offered any other solution or any other information from us? Can you give us a bit more info as to what we have advised?^MA
+Similarity: 0.745
+
+Historical Case 3
+Customer: @AmazonHelp My order is still not received. There is a huge problem in your delivery. This the 3rd day now. Being a prime member I am facing this. 😡😡😡
+Amazon Reply: @123358 We have emailed you here: https://t.co/8DAc10S7ww Kindly check &amp; reply to it for further assistance. ^SY
+Similarity: 0.737",I understand you’d prefer a replacement rather than placing a new order. Replacement availability depends on the order and item eligibility. Please continue with Amazon Customer Service through **Your Orders** or the **Contact Us** page so an associate can review the existing report and arrange a reshipment if available.
+113742,"@116324 @AmazonHelp ordered a package on prime to ensure I got it today, mail from Hermes delayed due to external factors, now due between 24th-28th, what's the point in prime if I have to wait?! @116324.",prime_issue,"Historical Case 1
+Customer: @116324 @AmazonHelp ordered a package on prime to ensure I got it today, mail from Hermes delayed due to external factors, now due between 24th-28th, what's the point in prime if I have to wait?! @116324.
+Amazon Reply: @141265 Hi! I know that a delay is frustrating, but delays can be caused by various reasons. Please let us know if it fails to arrive within your new delivery window! ^DA
+Similarity: 1.000
+
+Historical Case 2
+Customer: @AmazonHelp I am so angry. The second package is already delayed and I *must* have this one today. 2 orders, 2 delays. What’s even the point of prime???
+Amazon Reply: @135842 I'm sorry to hear of this, is there a note on the tracking saying why it is delayed? ^KI
+Similarity: 0.824
+
+Historical Case 3
+Customer: If I hear “it’s not our fault your package is late” one more time from @115821, I’m done with #Prime. @AmazonHelp
+Amazon Reply: @135314 I'm sorry your order is arriving later than expected. What information did we provide when you spoke with us? Have you been given an updated delivery date? ^RA
+Similarity: 0.805","Sorry your Prime delivery has been delayed, especially when you ordered it expecting it today. Delivery estimates can occasionally change due to carrier delays or circumstances outside Amazon’s control. Please check your order’s latest tracking details, and contact us through the Amazon app or website so we can review the order and available options for you."

@@ -1,0 +1,4 @@
+Model,Accuracy,Macro F1
+Majority Baseline,0.3,0.05128205128205129
+TF-IDF + Logistic Regression,0.475,0.3269362610944761
+Sentence Transformer + Logistic Regression,0.6,0.5192707468122132

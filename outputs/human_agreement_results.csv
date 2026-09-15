@@ -1,0 +1,6 @@
+dimension,samples,mean_rating,min_rating,max_rating
+Correctness,6,4.5,3,5
+Relevance,6,4.67,4,5
+Grounding,6,3.67,2,4
+Helpfulness,6,4.17,3,5
+No_Hallucination,6,4.5,2,5
